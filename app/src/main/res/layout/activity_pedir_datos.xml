@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_aplicacion"
+    android:padding="12sp"
+    tools:context="com.vampirex.proyecto.PedirDatosActivity">
+
+
+    <TextView
+        android:id="@+id/tx_preguntaDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/tx_introducir_nombre"
+        android:textColor="@color/color_texto_aplicacion"
+        android:textSize="@dimen/dialogo_login_tamano_letra" />
+
+    <EditText
+        android:id="@+id/etNombrJugador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tx_preguntaDialog"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:textColor="@color/color_texto_aplicacion">
+
+        <requestFocus />
+    </EditText>
+
+    <Spinner
+        android:id="@+id/sp_equipos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tx_Equipo"
+        android:layout_marginTop="26dp" />
+
+    <Button
+        android:id="@+id/bt_siguientePedirDatos"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_top_pantallaInicial"
+        android:layout_marginEnd="@dimen/margin_left_pantallaInicial"
+        android:layout_marginLeft="@dimen/margin_left_pantallaInicial"
+        android:layout_marginRight="@dimen/margin_left_pantallaInicial"
+        android:layout_marginStart="@dimen/margin_left_pantallaInicial"
+        android:onClick="clickBotonSiguienePedirDatos"
+        android:text="@string/bt_siguiente"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tx_Equipo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etNombrJugador"
+        android:layout_marginTop="26dp"
+        android:text="@string/etiqueta_equipo"
+        android:textColor="@color/color_texto_aplicacion"
+        android:textSize="@dimen/dialogo_login_tamano_letra" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sp_equipos"
+        android:layout_centerHorizontal="true"
+        android:text="@string/txAyuda"
+        android:textColor="@color/color_texto_aplicacion"
+        android:textSize="@dimen/dialogo_login_tamano_letra" />
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_aplicacion"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tx_preguntaDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialogo_login_usuario_rotulo"
+        android:textColor="@color/color_texto_aplicacion"
+        android:textSize="@dimen/dialogo_login_tamano_letra" />
+
+    <EditText
+        android:id="@+id/etLoginUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:textColor="@color/color_texto_aplicacion">
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dialogo_login_contrasinal_rotulo"
+        android:textColor="@color/color_texto_aplicacion"
+        android:textSize="@dimen/dialogo_login_tamano_letra" />
+
+    <EditText
+        android:id="@+id/etLoginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="@color/color_texto_aplicacion" />
+
+</LinearLayout>

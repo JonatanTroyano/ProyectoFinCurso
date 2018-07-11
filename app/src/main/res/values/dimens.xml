@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="separación_botones">50dp</dimen>
+    <dimen name="boton_altura">50dp</dimen>
+    <dimen name="boton_ancho">170dp</dimen>
+    <dimen name="separaciónVersion">5dp</dimen>
+    <dimen name="dialogo_login_tamano_letra">18sp</dimen>
+    <dimen name="margin_left_pantallaInicial">13dp</dimen>
+    <dimen name="margin_top_pantallaInicial">14dp</dimen>
+    <dimen name="margin_numero_pantallaInicial">10dp</dimen>
+    <dimen name="tamaño_texto_general">16sp</dimen>
+    <dimen name="tamaño_texto_dias">16sp</dimen>
+    <dimen name="separacionContra">140dp</dimen>
+    <dimen name="separacionContra2">80dp</dimen>
+</resources>

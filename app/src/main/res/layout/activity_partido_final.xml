@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_aplicacion"
+    android:padding="12sp"
+    tools:context="com.vampirex.proyecto.PartidoFinalActivity">
+
+
+    <TextView
+        android:id="@+id/tx_equipolocal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/margin_left_pantallaInicial"
+        android:layout_marginStart="@dimen/margin_left_pantallaInicial"
+        android:text="TextView"
+        android:textSize="@dimen/tamaño_texto_dias" />
+
+    <TextView
+        android:id="@+id/tx_contra"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tx_equipolocal"
+        android:layout_alignBottom="@+id/tx_equipolocal"
+        android:layout_centerHorizontal="true"
+        android:text="@string/etiquetaEquipocontra"
+        android:textSize="@dimen/tamaño_texto_dias" />
+
+    <TextView
+        android:id="@+id/tx_equipoVisitante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/margin_left_pantallaInicial"
+        android:layout_marginEnd="@dimen/margin_left_pantallaInicial"
+        android:text="TextView"
+        android:textSize="@dimen/tamaño_texto_dias" />
+
+    <TextView
+        android:id="@+id/tx_textoparte1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_equipolocal"
+        android:layout_marginBottom="@dimen/margin_top_pantallaInicial"
+        android:layout_marginEnd="@dimen/margin_left_pantallaInicial"
+        android:layout_marginLeft="@dimen/margin_left_pantallaInicial"
+        android:layout_marginRight="@dimen/margin_left_pantallaInicial"
+        android:layout_marginStart="@dimen/margin_left_pantallaInicial"
+        android:layout_marginTop="@dimen/margin_top_pantallaInicial"
+        android:text="@string/final_1_gol_parte1"
+        android:textColor="@color/color_texto_aplicacion"
+        android:textSize="@dimen/tamaño_texto_general" />
+
+    <TextView
+        android:id="@+id/tx_textoparte2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tx_textoparte1"
+        android:layout_alignStart="@+id/tx_textoparte1"
+        android:layout_below="@+id/tx_textoparte1"
+        android:layout_marginTop="14dp"
+        android:text="@string/final_1_gol_parte2"
+        android:textColor="@color/color_texto_aplicacion"
+        android:textSize="@dimen/tamaño_texto_general" />
+
+    <Button
+        android:id="@+id/bt_siguiente"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_top_pantallaInicial"
+        android:layout_marginEnd="@dimen/margin_left_pantallaInicial"
+        android:layout_marginLeft="@dimen/margin_left_pantallaInicial"
+        android:layout_marginRight="@dimen/margin_left_pantallaInicial"
+        android:layout_marginStart="@dimen/margin_left_pantallaInicial"
+        android:onClick="clickBotonFinal"
+        android:text="@string/bt_final"
+        android:textSize="14sp" />
+
+</RelativeLayout>

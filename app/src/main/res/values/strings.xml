@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Professional Football Player (Alfa Version)</string>
+    <string name="btJugar">Jugar</string>
+    <string name="btLogin">Iniciar Sesión</string>
+    <string name="btSalir">Salir</string>
+    <string name="tvVersionAplicación">Versión:  </string>
+    <string name="tvVersionNumero">0.0.1</string>
+    <string name="adTituloLogin">Iniciar Sesión</string>
+    <string name="adBotonSi">Si</string>
+    <string name="adBotonNo">No</string>
+    <string name="adBotonOk">Aceptar</string>
+    <string name="adBotonCancelar">Cancelar</string>
+    <string name="dialogo_login_usuario_rotulo">Usuario</string>
+    <string name="dialogo_login_contrasinal_rotulo">Contraseña</string>
+    <string name="tvAlertaAlfa">Esta aplicación esta aun en Alfa, es posible que se cuelgue o no funcione correctamente</string>
+    <string name="etiqeta_dia_ingame">Día numero:</string>
+    <string name="bt_siguiente">Siguiente</string>
+    <string name="texto_introduccion">Tu carrera como jugador de fútbol no podía empezar de mejor manera, aunque tienes cierta presión encima, un equipo de primera división española te ficha como delantero centro, ya que el suyo se ha lesionado. Y nada mas aceptar te dicen lo siguiente: “Dentro de 10 días se va jugar el partido más importante del año, si consigues marcar 2 goles o más te contrataremos como nuestro delantero centro estrella, si marcas 1 seras el suplente, y si no consigues marcar ninguno, comprenderemos que no estas a la altura y seras despedido sin posibilidad de jugar nunca mas (Risa malvada)”.
+Una vez con todo esto sobre tus hombros, empiezan tus 10 días mas importantes de tu vida.</string>
+    <string name="texto_mañana">Te levantas a las 7:30 como todos los días, decides darte una ducha y después desayunar algo, cuando vuelves a tu habitación te pones a preparar la ropa para el día, y entonces cuando empiezas a prepararla, coges la bolsa de entrenar decides: </string>
+    <string name="texto_ir_entrenar">Después de un duro y largo entrenamiento, estas cansado, vas a las duchas recoges todas tus cosas, cuando estas listo para irte y te despides de tus compañeros, se te presenta la siguiente situación: </string>
+    <string name="texto_no_ir_entrenar">Después de decidir no ir entrenar hoy porque crees que no es necesario y pasarte el día en casa descansando, vas a dar una vuelta por la ciudad, cuando se te presenta la siguiente situación:  </string>
+    <string name="texto_fin_dia">Cansado tras un largo día, ya fuera productivo o no a su manera, te acuestas en tu cama, te duermes enseguida, nunca has tenido problemas para dormir, y el día de hoy llega a su fin, un día menos para el gran partido.</string>
+    <string name="tx_nombre">Nombre:</string>
+    <string name="tx_introducir_nombre">Nombre del Jugador</string>
+    <string name="dialogEvento">Evento</string>
+    <string name="etiqueta_equipo">Equipo</string>
+    <string name="etiquetaEquipocontra">Contra</string>
+    <string name="texto_partido_final">Tras 10 largos días, se juega el partido y acaba con el siguiente resultado: </string>
+    <string name="final_2_goles_parte1">Se acercan a ti para anunciarte tu futuro. Enhorabuena has marcado 2 goles y hemos ganado gracias a ello, seras nuestro nuevo delantero centro estrella.</string>
+    <string name="final_2_goles_parte2">Acto seguido te hacen un contrato a la altura del de Cristiano Ronaldo. Pena que 2 meses después te estrelles con tu nuevo Ferrari y mueras en el acto.</string>
+    <string name="final_1_gol_parte1">Se acercan a ti para anunciarte tu futuro. Solo marcaste 1 gol, y empatamos pero después en el desempate conseguimos ganar. Seras nuestro suplente.</string>
+    <string name="final_1_gol_parte2">Desgraciadamente nunca te sacan a jugar, pero tienes un buen sueldo y no te preocupas por nada. Cuando te retiras, tienes suficiente dinero ahorrado para vivir lo que te queda sin preocupaciones.</string>
+    <string name="final_0_goles_parte1">Se acercan a ti para anunciarte tu futuro. No has marcado ni 1 triste gol, por tu culpa hemos perdido este partido y bajado de división, nos encargaremos de que no juegues en ningún equipo nunca más.</string>
+    <string name="final_0_goles_parte2">Después de ese testimonio no encuentras ningún equipo que te quiera. Te retiras, abres una panadería en tu pueblo de toda la vida, todo te va bien encuentras una maravillosa mujer, tenéis 2 hijos, y tienes una vida feliz y sin preocupaciones.</string>
+    <string name="bt_final">Fin</string>
+    <string name="txAyuda">Clica para cambiar el Equipo</string>
+
+</resources>

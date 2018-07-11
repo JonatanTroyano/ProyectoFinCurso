@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_aplicacion"
+    tools:context="com.vampirex.proyecto.PantallaInicial">
+
+    <TextView
+        android:id="@+id/tx_Dia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="@dimen/margin_left_pantallaInicial"
+        android:layout_marginStart="@dimen/margin_left_pantallaInicial"
+        android:layout_marginTop="@dimen/margin_top_pantallaInicial"
+        android:text="@string/etiqeta_dia_ingame"
+        android:textColor="@color/color_texto_aplicacion"
+        android:textSize="@dimen/tamaño_texto_dias"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="296dp" />
+
+    <TextView
+        android:id="@+id/tx_DiaNumero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tx_Dia"
+        android:layout_marginLeft="@dimen/margin_numero_pantallaInicial"
+        android:layout_marginStart="@dimen/margin_numero_pantallaInicial"
+        android:layout_toEndOf="@+id/tx_Dia"
+        android:layout_toRightOf="@+id/tx_Dia"
+        android:text="1"
+        android:textColor="@color/color_texto_aplicacion"
+        android:textSize="@dimen/tamaño_texto_dias" />
+
+    <TextView
+        android:id="@+id/tx_nombre_jugador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="@dimen/margin_numero_pantallaInicial"
+        android:layout_marginRight="@dimen/margin_numero_pantallaInicial"
+        android:layout_marginTop="@dimen/margin_top_pantallaInicial"
+        android:text="Virus"
+        android:textColor="@color/color_texto_aplicacion"
+        android:textSize="@dimen/tamaño_texto_dias" />
+
+    <TextView
+        android:id="@+id/tx_nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tx_nombre_jugador"
+        android:layout_marginEnd="@dimen/margin_numero_pantallaInicial"
+        android:layout_marginRight="@dimen/margin_numero_pantallaInicial"
+        android:layout_toLeftOf="@+id/tx_nombre_jugador"
+        android:layout_toStartOf="@+id/tx_nombre_jugador"
+        android:text="@string/tx_nombre"
+        android:textColor="@color/color_texto_aplicacion"
+        android:textSize="@dimen/tamaño_texto_dias" />
+
+    <TextView
+        android:id="@+id/tx_textoLargoDia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tx_Dia"
+        android:layout_marginBottom="@dimen/margin_top_pantallaInicial"
+        android:layout_marginEnd="@dimen/margin_left_pantallaInicial"
+        android:layout_marginLeft="@dimen/margin_left_pantallaInicial"
+        android:layout_marginRight="@dimen/margin_left_pantallaInicial"
+        android:layout_marginStart="@dimen/margin_left_pantallaInicial"
+        android:layout_marginTop="@dimen/margin_top_pantallaInicial"
+        android:text="@string/texto_introduccion"
+        android:textColor="@color/color_texto_aplicacion"
+        android:textSize="@dimen/tamaño_texto_general" />
+
+    <Button
+        android:id="@+id/bt_siguiente"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_top_pantallaInicial"
+        android:layout_marginEnd="@dimen/margin_left_pantallaInicial"
+        android:layout_marginLeft="@dimen/margin_left_pantallaInicial"
+        android:layout_marginRight="@dimen/margin_left_pantallaInicial"
+        android:layout_marginStart="@dimen/margin_left_pantallaInicial"
+        android:onClick="clickBotonSiguiente"
+        android:text="@string/bt_siguiente"
+        android:textSize="14sp" />
+</RelativeLayout>

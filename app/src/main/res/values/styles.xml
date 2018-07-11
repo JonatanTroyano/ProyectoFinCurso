@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:textColor">@color/color_texto_aplicacion</item>
+        <item name="android:background">@color/fondo_aplicacion</item>
+    </style>
+
+
+    <style name="temaDialogFUNCIONAPLS" parent="@android:style/Theme.Holo">
+        <item name="android:alertDialogTheme">@style/YourAlertDialogTheme</item>
+    </style>
+
+    <style name="YourAlertDialogTheme">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowBackground">@color/fondo_aplicacion</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowTitleStyle">@android:style/Theme.Holo</item>
+        <item name="android:textAppearanceMedium">@android:style/Theme.Holo</item>
+        <item name="android:borderlessButtonStyle">@android:style/Theme.Holo</item>
+        <item name="android:buttonBarStyle">@android:style/Theme.Holo</item>
+    </style>
+
+    <style name="titulostilo">
+        <item name="android:textColor">@color/color_texto_aplicacion</item>
+        <item name="android:background">@color/fondo_aplicacion</item>
+    </style>
+
+
+
+    <style name="ThemeDialogCustom">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowBackground">@color/fondo_aplicacion</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:textColor">@color/color_texto_aplicacion</item>
+        <item name="android:background">@color/fondo_aplicacion</item>
+        <item name="android:colorPrimary" tools:targetApi="lollipop">@color/color_texto_aplicacion</item>
+    </style>
+
+</resources>

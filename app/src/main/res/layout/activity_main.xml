@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo_aplicacion"
+    android:padding="12sp"
+    tools:context="com.vampirex.proyecto.MainActivity">
+
+    <Button
+        android:id="@+id/btLogin"
+        android:layout_width="@dimen/boton_ancho"
+        android:layout_height="@dimen/boton_altura"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:enabled="false"
+        android:onClick="ClickbtLogin"
+        android:text="@string/btLogin" />
+
+    <Button
+        android:id="@+id/btJugar"
+        android:layout_width="@dimen/boton_ancho"
+        android:layout_height="@dimen/boton_altura"
+        android:layout_above="@+id/btLogin"
+        android:layout_alignLeft="@+id/btLogin"
+        android:layout_alignStart="@+id/btLogin"
+        android:layout_marginBottom="50dp"
+        android:onClick="ClickbtJugar"
+        android:text="@string/btJugar" />
+
+    <Button
+        android:id="@+id/btSalir"
+        android:layout_width="@dimen/boton_ancho"
+        android:layout_height="@dimen/boton_altura"
+        android:layout_alignLeft="@+id/btLogin"
+        android:layout_alignStart="@+id/btLogin"
+        android:layout_below="@+id/btLogin"
+        android:layout_marginTop="@dimen/separación_botones"
+        android:onClick="ClickbtSalir"
+        android:text="@string/btSalir" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/tvVersionNumero"
+        android:textColor="@color/color_texto_aplicacion"
+        android:textSize="@dimen/tamaño_texto_dias" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="@dimen/separaciónVersion"
+        android:layout_toLeftOf="@+id/textView"
+        android:layout_toStartOf="@+id/textView"
+        android:text="@string/tvVersionAplicación"
+        android:textColor="@color/color_texto_aplicacion"
+        android:textSize="@dimen/tamaño_texto_dias" />
+</RelativeLayout>
