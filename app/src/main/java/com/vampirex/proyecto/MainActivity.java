@@ -43,6 +43,7 @@ public class MainActivity extends Activity {
             // cargar la actividad de la partida pasando en el extra lo necesario
             c.moveToFirst();
             Cursor ce = Estadistica.getEstadisticaPorId(1);
+            // Mover el cursor a la primera posición.
             ce.moveToFirst();
             Intent intent = new Intent(MainActivity.this, PantallaInicial.class);
             intent.putExtra("idJugador", c.getLong(0));
